@@ -1,7 +1,8 @@
-var rect = {
-  perimeter: (x, y) => 2 * (x + y),
-  area: (x, y) => x * y,
-};
+// var rect = {
+//   perimeter: (x, y) => 2 * (x + y),
+//   area: (x, y) => x * y,
+// };
+const rect = require("./rectangle");
 
 function solving(a, b) {
   console.log("Solving: a = " + a + " & b = " + b);
